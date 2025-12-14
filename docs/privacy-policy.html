@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy - Kaizoku-ō GFX</title>
+  <meta name="description" content="Privacy Policy for Kaizoku-ō GFX" />
+  <style>
+    :root{
+      --bg:#0F0F10; --card:#171717; --text:#FFFFFF; --muted:#B0B0B0;
+      --primary:#F2C94C; --accent:#E63946; --border:#2A2A2A;
+      --link:#F2C94C;
+      --glow: 0 0 0 rgba(0,0,0,0);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+    }
+
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background:
+        radial-gradient(1200px 400px at top, rgba(242,201,76,0.08), transparent 60%),
+        radial-gradient(800px 300px at bottom right, rgba(230,57,70,0.06), transparent 60%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.7;
+    }
+
+    header{
+      padding:48px 16px 36px;
+      background:linear-gradient(180deg, rgba(242,201,76,0.18), rgba(18,18,18,0));
+      border-bottom:1px solid var(--border);
+    }
+
+    .wrap{max-width:1000px; margin:0 auto; padding:0 16px;}
+
+    h1{
+      margin:0 0 8px;
+      font-size:34px;
+      letter-spacing:0.5px;
+    }
+
+    .sub{
+      margin:0;
+      color:var(--muted);
+      font-size:15px;
+    }
+
+    main{padding:28px 0 64px;}
+
+    .card{
+      background:linear-gradient(180deg, #1C1C1C, #151515);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:22px;
+      margin:18px 0;
+      box-shadow:0 10px 30px rgba(0,0,0,0.35);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .card::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      border-radius:inherit;
+      background:linear-gradient(120deg, transparent 30%, rgba(242,201,76,0.08), transparent 70%);
+      opacity:0;
+      transition:opacity .3s ease;
+      pointer-events:none;
+    }
+
+    .card:hover::before{opacity:1;}
+
+    h2{
+      margin:0 0 10px;
+      font-size:20px;
+      color:var(--primary);
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    h2::before{
+      content:"";
+      width:10px;
+      height:10px;
+      border-radius:50%;
+      background:var(--primary);
+      box-shadow:0 0 12px rgba(242,201,76,0.6);
+    }
+
+    h3{margin:16px 0 8px; font-size:15px; color:#fff;}
+
+    ul{margin:10px 0 0 20px;}
+
+    li{margin:6px 0;}
+
+    a{color:var(--link); text-decoration:none; font-weight:500;}
+
+    a:hover{text-decoration:underline;}
+
+    .pill{
+      display:inline-block;
+      font-size:12px;
+      padding:4px 12px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(242,201,76,0.08);
+      color:var(--primary);
+      margin-left:8px;
+    }
+
+    .note{
+      color:var(--muted);
+      font-size:14px;
+      border-left:3px solid var(--accent);
+      padding-left:12px;
+      margin-top:10px;
+    }
+
+    footer{
+      border-top:1px solid var(--border);
+      padding:24px 0;
+      color:var(--muted);
+      font-size:14px;
+      background:#0D0D0D;
+    }
+
+    .grid{display:grid; grid-template-columns:1fr; gap:16px;}
+    @media (min-width: 860px){ .grid{grid-template-columns:1fr 1fr;} }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="sub">Kaizoku-ō GFX <br/>Effective date: <strong>December 14, 2025</strong></p>
+  </div>
+</header>
+<main class="wrap">
+
+  <div class="card">
+    <h2>1) Overview</h2>
+    <p>
+      This Privacy Policy describes how <strong>Kaizoku-ō GFX</strong> ("we", "us", or "our") collects, uses,
+      stores, and protects information when you use our mobile application and related services (the "App").
+    </p>
+    <p class="note">
+      By installing or using the App, you agree to the practices described in this policy.
+      If you do not agree, please discontinue use of the App.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>2) Information We Collect</h2>
+
+    <h3>A. Information you provide voluntarily</h3>
+    <ul>
+      <li>Support inquiries or feedback you send via email or in-app forms.</li>
+      <li>Files, scripts, or assets you choose to import or manage using the App.</li>
+      <li>Preferences or settings saved locally on your device.</li>
+    </ul>
+
+    <h3>B. Information collected automatically</h3>
+    <ul>
+      <li><strong>Device data:</strong> device model, manufacturer, OS version, language, screen size.</li>
+      <li><strong>App data:</strong> app version, feature usage, interaction events.</li>
+      <li><strong>Diagnostics:</strong> crash logs, performance data, error reports.</li>
+      <li><strong>Identifiers:</strong> anonymized or resettable identifiers used for analytics.</li>
+    </ul>
+
+    <p class="note">
+      We do not collect precise location data unless explicitly required by a feature and permitted by you.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>3) How We Use Your Information</h2>
+    <ul>
+      <li>To operate, maintain, and improve the App.</li>
+      <li>To develop new features and optimize performance.</li>
+      <li>To monitor stability, detect bugs, and prevent abuse.</li>
+      <li>To respond to support requests and user feedback.</li>
+      <li>To comply with legal obligations and platform policies.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4) App Permissions & Device Access</h2>
+    <p>
+      Kaizoku-ō GFX requests only the minimum permissions necessary for its functionality.
+      Permissions may include:
+    </p>
+    <ul>
+      <li><strong>Storage / File access:</strong> to allow you to select, import, or manage files you choose.</li>
+      <li><strong>Network access:</strong> to load content, sync data, or fetch updates.</li>
+      <li><strong>Notifications:</strong> to inform you about updates or important notices (optional).</li>
+    </ul>
+    <p class="note">
+      You can revoke permissions at any time through your device settings.
+      Some features may be unavailable if permissions are denied.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>5) Data Sharing & Disclosure</h2>
+    <p>We do not sell or rent your personal information.</p>
+    <p>We may share limited information only when necessary:</p>
+    <ul>
+      <li>With trusted service providers (analytics, crash reporting, hosting).</li>
+      <li>To comply with legal requests, laws, or regulations.</li>
+      <li>To protect the rights, safety, and integrity of users and the App.</li>
+      <li>In the event of a merger, acquisition, or asset transfer.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>6) Third-Party Services</h2>
+    <p>
+      The App may integrate third-party services to improve functionality and stability.
+      These services may collect information under their own privacy policies.
+    </p>
+    <ul>
+      <li>Google Play Services</li>
+      <li>Google Analytics for Firebase</li>
+      <li>Firebase Crashlytics</li>
+    </ul>
+    <p class="note">
+      We recommend reviewing the privacy policies of these providers for more information.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>7) Data Retention</h2>
+    <p>
+      We retain collected information only for as long as necessary to fulfill the purposes
+      outlined in this Privacy Policy, unless a longer retention period is required by law.
+    </p>
+    <ul>
+      <li>Analytics and crash data are retained according to provider policies.</li>
+      <li>User communications may be retained for support and legal records.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>8) Data Security</h2>
+    <p>
+      We implement reasonable technical and organizational safeguards to protect your information.
+      However, no method of electronic storage or transmission is completely secure.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>9) Children’s Privacy</h2>
+    <p>
+      Kaizoku-ō GFX is not intended for children under the age of 13.
+      We do not knowingly collect personal information from children.
+      If such data is discovered, it will be deleted promptly.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>10) Your Rights & Choices</h2>
+    <ul>
+      <li>Manage permissions via your device settings.</li>
+      <li>Request access to or deletion of certain data, where applicable.</li>
+      <li>Opt out of analytics where supported by your device or platform.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>11) Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy periodically.
+      Any changes will be posted on this page with an updated effective date.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>12) Data Deletion Request</h2>
+    <p>
+      You have the right to request deletion of certain personal data that we may hold.
+      If you would like to request data deletion, please contact us using the email below.
+    </p>
+    <ul>
+      <li>Send an email with the subject line: <strong>"Data Deletion Request"</strong></li>
+      <li>Include any relevant details that help us identify your data (e.g., device model, app version).</li>
+    </ul>
+    <p class="note">
+      We will review and process data deletion requests within a reasonable timeframe,
+      subject to legal, security, or operational requirements.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>13) Contact Information</h2>
+    <p>If you have questions, concerns, or requests related to this Privacy Policy, contact us:</p>
+    <ul>
+      <li>Email: <a href="mailto:dev.kaizokuo@gmail.com">dev.kaizokuo@gmail.com</a></li>
+    </ul>
+  </div>
+
+</main>
+<footer><div class="wrap">© <span id="y"></span> Kaizoku-ō GFX</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
